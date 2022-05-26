@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Extra Css</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Reto Coder</h1>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="images/261868.webp" target="_parent">Ver Imagen</a>
+                </li>
+                <li>
+                    <a href="#Contacto">Formulario</a>
+                </li>
+                <li>
+                    <a href="#Paises">Paises</a>
+                </li>
+                <li>
+                    <a href="#Frutas">Frutas</a>
+                </li>
+                <li>
+                    <a href="https://malvabombom.xyz/">Enlace Normal</a>
+                </li>
+                <li>
+                    <a href="https://malvabombom.xyz/" target="_blank">Enlace del documento vinculado</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="principal">
+            <img class="principal__img" src="images/261868.webp" alt="261868">
+        </div>
+        <div class="listado">
+            <h2 class="listado__titulo">Listados</h3>
+                <ol class="listado__principal">
+                    <li>
+                        <h3 class="listado__principal__titulo">Nombres</h4>
+                            <ul class="shortcut">
+                                <li>Ramiro</li>
+                                <li>Florencia</li>
+                                <li>Juancho</li>
+                                <li>Franco</li>
+                                <li>Yanina</li>
+                            </ul>
+                    </li>
+                    <li>
+                        <h3 class="listado__principal__titulo">Pasos para preparar Mate</h3>
+                        <ol class="listado__secundario">
+                            <li>Comprar mate</li>
+                            <li>Calentar el agua</li>
+                            <li>Sacudir el polvo</li>
+                            <li>Poner la yerba</li>
+                            <li>Colocar la bombilla en diagonal</li>
+                            <li>Disfrutar del mate</li>
+                        </ol>
+                    </li>
+                </ol>
+
+                <table class="tbl">
+                    <tr>
+                        <th>Titulo 1</th>
+                        <th>Titulo 2</th>
+                    </tr>
+                    <tr>
+                        <td>Hola</td>
+                        <td>Crayola</td>
+                    </tr>
+                    <tr>
+                        <td>Manzanas</td>
+                        <td>Bananas</td>
+                    </tr>
+                </table>
+
+        </div>
+        <div id="Contacto" class="formulario">
+            <img src="images/email-marketing-2362038__340.webp" width="90%">
+            <form>
+                <h3>Formulario de contacto</h3>
+                <label for="mensaje">Escribe algo:</label>
+                <input type="text" id="mensaje" name="mensaje">
+                <label for="correo">Email:</label>
+                <input type="email" id="correo" name="correo">
+                <input type="submit">
+                <input type="reset" value="LIMPIAR">
+                <input type="button" value="Soy un boton">
+            </form>
+        </div>
+        <div class="formulario">
+            <form id="Paises">
+                <iframe src="https://www.youtube.com/embed/TS8Tx4oZ5PM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <h3>Paises</h3>
+                <label for="Argentina">Argentina</label>
+                <input type="radio" name="paises" value="Argentina">
+                <label for="Mexico">Mexico</label>
+                <input type="radio" name="paises" value="Mexico">
+                <label for="Peru">Peru</label>
+                <input type="radio" name="paises" value="Peru">
+                <label for="Uruguay">Uruguay</label>
+                <input type="radio" name="paises" value="Uruguay">
+                <label for="España">España</label>
+                <input type="radio" name="paises" value="España">
+                <input type="submit">
+            </form>
+        </div>
+        <div class="">
+            <form id="Frutas">
+                <fieldset>
+                    <legend>Selección de frutas</legend>
+                    <select name="frutas">
+                                <option value="manzana">manzana</option>
+                                <option value="banana">banana</option>
+                                <option value="tomate">tomate</option>
+                                <option value="sandias">sandias</option>
+                            </select>
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

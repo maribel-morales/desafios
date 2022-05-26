@@ -1,0 +1,28 @@
+.desafio1 {
+    color: orange
+}
+
+.contenido__titulo {
+    color: #3F3844;
+}
+
+.contenido__descripcion {
+    color: rgb(63, 56, 68);
+}
+
+.listado ol li {
+    color: blue;
+}
+
+.listado ol li h3,
+h4 {
+    color: blue;
+}
+
+.listado ol li ul li {
+    color: #2980b9;
+}
+
+.listado ol li ol li {
+    color: #154360;
+}
